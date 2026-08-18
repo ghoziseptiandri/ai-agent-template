@@ -1,0 +1,23 @@
+# Environment variables / secrets
+.env
+
+# Python virtual environment
+.venv/
+
+# Python cache files
+__pycache__/
+*.pyc
+
+# Pytest cache
+.pytest_cache/
+
+# Application logs
+agent.log
+agent.jsonl
+
+# Local agent memory / runtime data
+memory.json
+long_term_memory.json
+
+# macOS system files
+.DS_Store
