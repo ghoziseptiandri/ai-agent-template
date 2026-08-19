@@ -151,19 +151,17 @@ python -m pip install -r requirements.txt
 
 ### 4. Create your `.env` and Setup the Model
 
-Copy the example:
-
+Create and open `.env`
 ``` bash
-cp .env.example .env
+touch .env
+nano .env
 ```
 
-Then open `.env` and put your real Gemini API key there:
+Put your real Gemini API key there:
 
 ``` text
 GEMINI_API_KEY=your_real_api_key_here
 ```
-
-Do not put the real API key inside `.env.example`.
 
 Also, never commit `.env` to Git.
 
@@ -171,7 +169,6 @@ Then, open `config.py` and choose the model you want to use:
 
 ```python
 MODEL_NAME = "your-model-name"
-```
 
 ### 5. Run the agent
 
