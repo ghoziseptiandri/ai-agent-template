@@ -15,6 +15,47 @@ projects.
 
 > This is a learning project, not a production-ready agent yet.
 
+## Phase 1 - Core Agent Foundations
+
+The project currently covers:
+
+### Environment & Setup
+
+- Python & Virtual Environments
+- .env & API Keys
+- Configuration Management
+
+### Gemini & Agent Fundamentals
+
+- Gemini API & Chat
+- System Instructions
+- Prompt Organization
+- Conversation History
+
+### Tools & Function Calling
+
+- Function / Tool Calling
+- Manual Function Calling
+- Tool Registry
+- Multiple & Chained Tool Calls
+- Maximum Tool-Loop Limit
+
+### Architecture
+
+- Project Structure
+- main.py vs. Agent Logic
+
+### Memory
+
+- Persistent Memory
+- Memory as an Agent Tool
+
+### Reliability & Testing
+
+- Error Handling
+- Logging & Observability
+- Automated Testing
+
 ## What It Can Do
 
 At the current stage, the agent can:
@@ -33,30 +74,6 @@ At the current stage, the agent can:
 -   Limit the number of agent/tool loops
 -   Write structured logs
 -   Run automated tests with `pytest`
-
-## What I Learned Building This
-
-The project currently covers:
-
-1.  Python & Virtual Environments
-2.  `.env` & API Keys
-3.  Gemini API & Chat
-4.  Function / Tool Calling
-5.  Manual Function Calling
-6.  Tool Registry
-7.  Project Structure
-8.  `main.py` vs Agent Logic
-9.  Conversation History
-10. Persistent Memory
-11. Memory as an Agent Tool
-12. System Instructions
-13. Error Handling
-14. Logging & Observability
-15. Automated Testing
-16. Multiple & Chained Tool Calls
-17. Maximum Tool-Loop Limit
-18. Prompt Organization
-19. Configuration Management
 
 ## Project Structure
 
